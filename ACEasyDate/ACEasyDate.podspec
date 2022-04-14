@@ -18,6 +18,6 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = "12.1"
   spec.swift_version = "4.2"
   spec.source       = { :git => "git@github.com:andrewcookies/easy-date.git", :tag => "release/#{spec.version}" }
-  spec.source_files  = "easy-date/ACEasyDate/**/*.{h,m,swift}"
+  spec.source_files  = "ACEasyDate/ACEasyDate/**/*.{h,m,swift}"
 
 end
