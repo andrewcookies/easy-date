@@ -11,6 +11,7 @@
 		ACBD84E7280830B400264431 /* ACEasyDate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACBD84DC280830B300264431 /* ACEasyDate.framework */; };
 		ACBD84EC280830B400264431 /* ACEasyDateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBD84EB280830B400264431 /* ACEasyDateTests.swift */; };
 		ACBD84ED280830B400264431 /* ACEasyDate.h in Headers */ = {isa = PBXBuildFile; fileRef = ACBD84DF280830B300264431 /* ACEasyDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACBD84F7280830DC00264431 /* ACEasyDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBD84F6280830DC00264431 /* ACEasyDate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		ACBD84E0280830B300264431 /* ACEasyDate.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = ACEasyDate.docc; sourceTree = "<group>"; };
 		ACBD84E6280830B400264431 /* ACEasyDateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ACEasyDateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACBD84EB280830B400264431 /* ACEasyDateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACEasyDateTests.swift; sourceTree = "<group>"; };
+		ACBD84F6280830DC00264431 /* ACEasyDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACEasyDate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				ACBD84DF280830B300264431 /* ACEasyDate.h */,
 				ACBD84E0280830B300264431 /* ACEasyDate.docc */,
+				ACBD84F6280830DC00264431 /* ACEasyDate.swift */,
 			);
 			path = ACEasyDate;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACBD84E1280830B300264431 /* ACEasyDate.docc in Sources */,
+				ACBD84F7280830DC00264431 /* ACEasyDate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +400,7 @@
 		ACBD84F4280830B400264431 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3J9FBX28X7;
@@ -412,6 +417,7 @@
 		ACBD84F5280830B400264431 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3J9FBX28X7;
