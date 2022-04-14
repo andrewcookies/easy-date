@@ -25,7 +25,7 @@ One of the most waste of time in date managing is print date. ACEasyDate() offer
 
 ```
 let date = ACEasyDate(epoch: YOUR_EPOCH_TIME ) 
-date.simpleDateFormat = "yyyy/MM/dd HH:ss"
+date.acEasyDateFormat = "yyyy/MM/dd HH:ss"
 date.dateString //print you date
 
 //..and following your device settings...
